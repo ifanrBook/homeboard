@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>线路检测跳转中...</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <h1 class="title">线路检测跳转中...</h1>
+            <p class="subtitle">正在为您寻找最快的可用通道<br>请稍等片刻，系统将自动跳转</p>
+
+            <div class="loader-container">
+                <div class="spinner"></div>
+            </div>
+
+            <div id="status-message" class="status-message hidden">
+                <span class="check-icon">✓</span>
+                <span class="success-text">检测成功，<a href="#" class="link">正在跳转...</a></span>
+            </div>
+
+            <p class="footer-text">如长时间未跳转，请联系在线客服</p>
+
+            <button id="cancel-btn" class="cancel-btn">取消跳转</button>
+        </div>
+    </div>
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
